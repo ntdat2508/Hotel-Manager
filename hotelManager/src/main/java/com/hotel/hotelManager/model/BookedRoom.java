@@ -96,4 +96,40 @@ public class BookedRoom {
     public String getBookingConfirmationCode() {
         return bookingConfirmationCode;
     }
+
+    public String getGuestFullName() {
+        return guestFullName;
+    }
+
+    public void setGuestFullName(String guestFullName) {
+        this.guestFullName = guestFullName;
+    }
+
+    public String getGuestEmail() {
+        return guestEmail;
+    }
+
+    public void setGuestEmail(String guestEmail) {
+        this.guestEmail = guestEmail;
+    }
+
+    public int getNumOfAdults() {
+        return NumOfAdults;
+    }
+
+    public int getNumOfChildren() {
+        return NumOfChildren;
+    }
+
+    public Room getRoom() {
+        return room;
+    }
+
+    public int getTotalNumOfGuest() {
+        return totalNumOfGuest;
+    }
+
+    public void setTotalNumOfGuest(int totalNumOfGuest) {
+        this.totalNumOfGuest = totalNumOfGuest;
+    }
 }

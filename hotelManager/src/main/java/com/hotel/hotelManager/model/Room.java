@@ -84,4 +84,12 @@ public class Room {
     public void setPhoto(Blob photo) {
         this.photo = photo;
     }
+
+    public List<BookedRoom> getBookings() {
+        return bookings;
+    }
+
+    public void setBookings(List<BookedRoom> bookings) {
+        this.bookings = bookings;
+    }
 }
