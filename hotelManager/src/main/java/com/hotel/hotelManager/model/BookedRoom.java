@@ -128,8 +128,4 @@ public class BookedRoom {
     public int getTotalNumOfGuest() {
         return totalNumOfGuest;
     }
-
-    public void setTotalNumOfGuest(int totalNumOfGuest) {
-        this.totalNumOfGuest = totalNumOfGuest;
-    }
 }
